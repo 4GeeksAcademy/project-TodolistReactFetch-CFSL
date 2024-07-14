@@ -1,12 +1,56 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 138, 220, 0.585);
+    margin:0;
+    font-size: 50px;
+  }
+  .titulo{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 50px;
+  }
+  .contenedor{
+    width: 50vw;
+    min-height: 600px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  ul li{
+    max-width: auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  }
+  ul{
+    padding-left:0;
+  }
+  input{
+    margin-top: 15px;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+  }
+  .numTasks{
+    padding: 0;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  img{
+    height: 350px;
+    width: auto;
+  }
+.form-control{
+  font-size: 30px;
+}
